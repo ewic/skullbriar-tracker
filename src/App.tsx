@@ -1,20 +1,18 @@
-import { useState } from 'react'
 import './App.css'
-import skullbriar from './assets/images/skullbriar.png'
 
 function App() {
   
-  const [ plusOne, setPlusOne ] = useState<Number>(0)
-  const [ trample, setTrample ] = useState<Number>(0)
-  const [ flying, setFlying ] = useState<Number>(0)
-  const [ vigilance, setVigilance ] = useState<Number>(0)
-  const [ deathtouch, setDeathtouch ] = useState<Number>(0)
-  const [ menace, setMenace] = useState<Number>(0)
-  const [ firststrike, setFirstStrike] = useState<Number>(0)
-  const [ hexproof, setHexproof] = useState<Number>(0)
-  const [ lifelink, setLifelink] = useState<Number>(0)
-  const [ reach, setReach] = useState<Number>(0)
-  const [ indestructible, setIndestructible] = useState<Number>(0)
+  // const [ plusOne, setPlusOne ] = useState<Number>(0)
+  // const [ trample, setTrample ] = useState<Number>(0)
+  // const [ flying, setFlying ] = useState<Number>(0)
+  // const [ vigilance, setVigilance ] = useState<Number>(0)
+  // const [ deathtouch, setDeathtouch ] = useState<Number>(0)
+  // const [ menace, setMenace] = useState<Number>(0)
+  // const [ firststrike, setFirstStrike] = useState<Number>(0)
+  // const [ hexproof, setHexproof] = useState<Number>(0)
+  // const [ lifelink, setLifelink] = useState<Number>(0)
+  // const [ reach, setReach] = useState<Number>(0)
+  // const [ indestructible, setIndestructible] = useState<Number>(0)
 
   return (
     <main>
