@@ -25,11 +25,11 @@ function App() {
   return (
     <main>
       <h1 className="font-extrabold">Skullbriar App</h1>
-      <div className="relative bg-[url('./assets/images/skullbriar-clear.png')] h-[680px] w-[480px] rounded-xl">
+      <div className="relative bg-[url('./assets/images/skullbriar-clear.png')] h-[680px] w-[480px] rounded-xl text-center">
         <div className="absolute bottom-7 right-20">
           <span className="text-black font-bold text-2xl">{power + plusOne}</span>
         </div>
-        <div className="absolute bottom-7 right-10">
+        <div className="absolute bottom-7 right-8">
           <span className="text-black font-bold text-2xl">{toughness + plusOne}</span>
         </div>
       </div>
